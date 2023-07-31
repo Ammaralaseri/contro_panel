@@ -1,14 +1,13 @@
 # contro_panel
-link to wokwi""
+link to wokwi"https://wokwi.com/projects/371775761651776513"
 
 use esp32 for control leds 
 
 the code :
-#include <Arduino.h>
 
+#include <Arduino.h>
 #include <WiFi.h>
 #include <WiFiMulti.h>
-
 #include <HTTPClient.h>
 
 #define USE_SERIAL Serial
@@ -34,7 +33,7 @@ void setup() {
         delay(1000);
     }
 
-    wifiMulti.addAP("HW-4G-MobileWiFi-C821", "01794962");
+    wifiMulti.addAP("this for name network", "this for password");
 
 }
 
@@ -229,3 +228,7 @@ void loop() {
 
     delay(5000);
 }
+
+![لقطة شاشة 2023-07-31 165749](https://github.com/Ammaralaseri/contro_panel/assets/140005774/caeb3912-d0f0-4001-b221-ed7a9cc21fb2)
+
+
